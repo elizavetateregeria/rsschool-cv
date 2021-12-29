@@ -27,11 +27,3 @@ function isPalindrome(line) {
   return line.toString().split('').reverse().join('') === line.toString();
 }
 ```
-
-## Courses:
-
-- Udemy
-  - [HTML/CSS](https://www.udemy.com/course/webdeveloper/)
-  - [JavaScript](https://www.udemy.com/course/javascript_full/)
-- HTML Academy
-  ![Certificate](certificate.png)

@@ -35,3 +35,9 @@ function isPalindrome(line) {
   - [JavaScript](https://www.udemy.com/course/javascript_full/)
 - HTML Academy
   ![Certificate](./certificate.png)
+
+## Languages:
+
+- English - Intermediate
+- Ukrainian - Native
+- Russian - Proficient

@@ -34,4 +34,5 @@ function isPalindrome(line) {
   - [HTML/CSS](https://www.udemy.com/course/webdeveloper/)
   - [JavaScript](https://www.udemy.com/course/javascript_full/)
 - HTML Academy
-  ![Certificate](./certificate.png)
+  
+  ![Certificate](certificate.PNG)

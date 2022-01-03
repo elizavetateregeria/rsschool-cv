@@ -4,9 +4,108 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+    <title>Yelizaveta Teregeria CV</title>
 </head>
 <body>
-    
+    <div class="wrapper">
+        <header class="page-header">
+            <nav class="main-nav">
+                <ul class="menu">
+                    <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">About me</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Skills</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Code Example</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Education</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Languages</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <figure>
+                <img src="img/cv-photo.jpg" alt="Personal photo" width="300" height="325">
+            </figure>
+            <h1>Yelizaveta Teregeria</h1>
+            <p>Front-End developer</p>
+
+            <section class="contacts" id="contact">
+                <ul class="contacts__list">
+                    <li class="contacts__item">
+                        <a class="contacts__link" href="https://github.com/elizavetateregeria" target="_blank">github.com/elizavetateregeria</a></li>
+                    </li>
+                    <li class="contacts__item">
+                        <a class="contacts__link" href="https://t.me/Fe1si" target="_blank">t.me/Fe1si</a>
+                    </li>
+                    <li class="contacts__item">
+                        <a class="contacts__link" href="mailto:yteregeria@gmail.com" target="_blank">yteregeria@gmail.com</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="about-me" id="about">
+                <h2>About me</h2>
+                <p>My current goal is graduating from RSSchool in order to become a frontend developer.</p>
+            </section>
+
+            <section class="skills" id="skill">
+                <h2>Skills</h2>
+                <ul class="skills-list">
+                    <li class="skills-list__item">HTML5</li>
+                    <li class="skills-list__item">CSS3</li>
+                    <li class="skills-list__item">JavaScript (Basic)</li>
+                    <li class="skills-list__item">Figma</li>
+                    <li class="skills-list__item">Git, GitHub</li>
+                </ul>
+            </section>
+
+            <section class="code-example" id="code">
+                <h2>Code Example</h2>
+                <p></p>
+                <code>
+                    <pre>
+                    function isPalindrome(line) {
+                        return line.toString().split('').reverse().join('') === line.toString();
+                    }
+                    </pre>
+                </code>
+            </section>
+
+            <section class="education" id="edu">
+                <div class="education__info">
+                    <div class="education__date">2019</div>
+                    <div class="education__title">Udemy: WEB-developer course by Ivan Petrichenko</div>
+                </div>
+                <div class="education__info">
+                    <div class="education__date">2020</div>
+                    <div class="education__title">Udemy: JavaScript course by Ivan Petrichenko</div>
+                </div>
+                <div class="education__info">
+                    <div class="education__date">2020</div>
+                    <div class="education__title">HTML Academy: HTML&CSS.Adaptive Website Coding and Automation</div>
+                </div>
+            </section>
+
+            <section class="languages" id="lang">
+                <h2>Languages</h2>
+                <ul class="languages-list">
+                    <li class="languages-list__item">English - B1 level</li>
+                    <li class="languages-list__item">Ukrainian - Native</li>
+                    <li class="languages-list__item">Russian - Proficient</li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-info">
+                <a href="https://github.com/elizavetateregeria">
+                    <img src="img/icons/github_logo.svg" alt="link to my github">
+                </a>
+                <span>2021</span>
+                <a href="https://rs.school/js/">
+                    <img src="img/icons/rs_school_logo.svg" alt="RSSchool logo">
+                </a>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
+

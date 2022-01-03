@@ -92,7 +92,7 @@ body {
 }
 
 .page-main {
-  padding: 20px 25px;
+  padding: 20px 50px;
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-gap: 20px;
@@ -107,6 +107,7 @@ body {
 }
 
 .main__photo {
+  margin: 0;
   padding: 20px 0;
 }
 

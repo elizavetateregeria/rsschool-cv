@@ -111,7 +111,7 @@ body {
 }
 
 .main__img {
-  border-radius: 50%;
+  box-shadow: 5px -5px var(--accent-color);
 }
 
 .main__info {

@@ -37,13 +37,13 @@
             <section class="contacts" id="contact">
                 <h2 class="section__title title">Contact</h2>
                 <ul class="contacts__list">
-                    <li class="contacts__item">
+                    <li class="contacts__item contacts__item--github">
                         <a class="contacts__link" href="https://github.com/elizavetateregeria" target="_blank">github.com/elizavetateregeria</a></li>
                     </li>
-                    <li class="contacts__item">
+                    <li class="contacts__item contacts__item--telegram">
                         <a class="contacts__link" href="https://t.me/Fe1si" target="_blank">t.me/Fe1si</a>
                     </li>
-                    <li class="contacts__item">
+                    <li class="contacts__item contacts__item--email">
                         <a class="contacts__link" href="mailto:yteregeria@gmail.com" target="_blank">yteregeria@gmail.com</a>
                     </li>
                 </ul>
@@ -67,17 +67,15 @@
 
             <section class="code-example" id="code">
                 <h2 class="section__title title">Code Example</h2>
-                <p></p>
-                <code>
-                    <pre>
-                    function isPalindrome(line) {
-                        return line.toString().split('').reverse().join('') === line.toString();
-                    }
-                    </pre>
-                </code>
+                <pre class="code">
+    function isPalindrome(line) {
+        return line.toString().split('').reverse().join('') === line.toString();
+    }
+                </pre>
             </section>
 
             <section class="education" id="edu">
+                <h2 class="section__title title">Education</h2>
                 <div class="education__info">
                     <div class="education__date">2019</div>
                     <div class="education__title">Udemy: WEB-developer course by Ivan Petrichenko</div>
@@ -101,7 +99,7 @@
                 </ul>
             </section>
         </main>
-        <footer>
+        <footer class="page-footer">
             <div class="footer-info">
                 <a href="https://github.com/elizavetateregeria">
                     <img src="img/icons/github_logo.svg" alt="link to my github">

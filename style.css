@@ -178,3 +178,17 @@ body {
   grid-column: 2;
 }
 
+.page-footer {
+  background-color: var(--dark-color);
+  padding: 10px 150px;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-info__link {
+  text-decoration: none;
+}

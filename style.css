@@ -40,13 +40,13 @@ body {
   font-family: var(--accent-font);
 }
 
-.main__title {
+.main-title {
   font-size: 45px;
   margin: 0;
   padding-bottom: 15px;
 }
 
-.section__title {
+.section-title {
   color: var(--accent-color);
 }
 
@@ -99,23 +99,23 @@ body {
   background-color: var(--light-color);
 }
 
-.main__header {
+.main-header {
   grid-column: 2;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.main__photo {
+.main-photo {
   margin: 0;
   padding: 20px 0;
 }
 
-.main__img {
+.main-photo__img {
   box-shadow: 5px -5px var(--accent-color);
 }
 
-.main__info {
+.main-info {
   font-size: 25px;
   margin-top: 0;
   text-transform: uppercase;
@@ -156,6 +156,30 @@ body {
 
 .contacts__item--email::before {
   background-image: url(img/icons/email.svg);
+}
+
+.contacts__link {
+  color: var(--text-color)
+}
+
+.contacts__link:hover {
+  text-decoration: none;
+}
+
+.skills-list {
+  line-height: 2;
+}
+
+.projects-list {
+  line-height: 2;
+}
+
+.projects-list__link {
+  color: var(--text-color);
+}
+
+.projects-list__link:hover {
+  text-decoration: none;
 }
 
 .education {

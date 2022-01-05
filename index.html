@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <title>Yelizaveta Teregeria CV</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="page-header">
+            <nav class="main-nav">
+                <ul class="menu">
+                    <li class="menu__item"><a class="menu__link" href="#contact">Contact</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#about">About me</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#skill">Skills</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#project">Projects</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#code">Code Example</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#edu">Education</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#lang">Languages</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="page-main">
+                <figure class="main-photo">
+                    <img class="main-photo__img" src="img/cv-photo.jpg" alt="Personal photo" width="300" height="325">
+                </figure>
+                <div class="main-header">
+                    <h1 class="main-title title">Yelizaveta Teregeria</h1>
+                    <p class="main-info">Front-End developer</p>
+                </div>
+
+            <section class="contacts" id="contact">
+                <h2 class="section-title title">Contact</h2>
+                <ul class="contacts__list">
+                    <li class="contacts__item contacts__item--github">
+                        <a class="contacts__link" href="https://github.com/elizavetateregeria" target="_blank">github.com/elizavetateregeria</a>
+                    </li>
+                    <li class="contacts__item contacts__item--telegram">
+                        <a class="contacts__link" href="https://t.me/Fe1si" target="_blank">t.me/Fe1si</a>
+                    </li>
+                    <li class="contacts__item contacts__item--email">
+                        <a class="contacts__link" href="mailto:yteregeria@gmail.com" target="_blank">yteregeria@gmail.com</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="about-me" id="about">
+                <h2 class="section-title title">About me</h2>
+                <p>Hello! I'm a switcher, who is trying to find her place in the fascinating world of web development. I'm fond of learning something new and putting it into practice. My current goal is graduating from RSSchool in order to become a frontend developer.</p>
+            </section>
+
+            <section class="skills" id="skill">
+                <h2 class="section-title title">Skills</h2>
+                <ul class="skills-list">
+                    <li class="skills-list__item">HTML5</li>
+                    <li class="skills-list__item">CSS3</li>
+                    <li class="skills-list__item">JavaScript (Basic)</li>
+                    <li class="skills-list__item">Figma</li>
+                    <li class="skills-list__item">Git, GitHub</li>
+                </ul>
+            </section>
+
+            <section class="projects" id="project">
+                <h2 class="section-title title">Projects</h2>
+                <ul class="projects-list">
+                    <li class="projects-list__item">
+                        <a href="https://elizavetateregeria.github.io/639761-cat-energy-23/" class="projects-list__link">Cat Food Shop</a>
+                    </li>
+                    <li class="projects-list__item">
+                        <a href="https://elizavetateregeria.github.io/layout_Jake-and-Elwood/" class="projects-list__link">Jake-and-Elwood Promo Website</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="code-example" id="code">
+                <h2 class="section-title title">Code Example</h2>
+                <pre class="code">
+    function isPalindrome(line) {
+        return line.toString().split('').reverse().join('') === line.toString();
+    }
+                </pre>
+            </section>
+
+            <section class="education" id="edu">
+                <h2 class="section-title title">Education</h2>
+                <div class="education__info">
+                    <div class="education__date">2019</div>
+                    <div class="education__title">Udemy: WEB-developer course by Ivan Petrichenko</div>
+                </div>
+                <div class="education__info">
+                    <div class="education__date">2020</div>
+                    <div class="education__title">Udemy: JavaScript course by Ivan Petrichenko</div>
+                </div>
+                <div class="education__info">
+                    <div class="education__date">2020</div>
+                    <div class="education__title">HTML Academy: HTML&CSS.Adaptive Website Coding and Automation</div>
+                </div>
+            </section>
+
+            <section class="languages" id="lang">
+                <h2 class="section-title title">Languages</h2>
+                <ul class="languages-list">
+                    <li class="languages-list__item">English - B1 level</li>
+                    <li class="languages-list__item">Ukrainian - Native</li>
+                    <li class="languages-list__item">Russian - Proficient</li>
+                </ul>
+            </section>
+        </main>
+        <footer class="page-footer">
+            <div class="footer-info">
+                <a class="footer-info__link" href="https://github.com/elizavetateregeria">
+                    <img class="footer-info__icon--github" src="img/icons/github_logo.svg" alt="link to my github" width="30" height="30">
+                </a>
+                <span>2021</span>
+                <a class="footer-info__link" href="https://rs.school/js/">
+                    <img class="footer-info__icon--rsschool" src="img/icons/rs_school_logo.svg" alt="RSSchool logo" width="150" height="30">
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
+
